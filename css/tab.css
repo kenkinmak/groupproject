@@ -1,0 +1,60 @@
+/*Css for videos*/
+iframe{
+  width: 400px;
+  height: 225px;
+  frameborder: 0;
+}
+
+/*Css for tabs*/
+ .port{
+   margin-top: 125px;
+   background: white;
+ }
+
+ .navi{
+   margin: 12px 0 10px 0;
+   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+   font-size: 20px;
+ }
+
+ .p-nav{
+   margin-bottom: 20px;
+   background: white;
+ }
+
+.panel{
+  background: white;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.opanel{
+  background: #e76324;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.f-this{
+  font-size: 17px;
+margin: 10px 0 10px 20px;
+
+}
+
+.f-that{
+margin: 10px 0 10px 20px;
+}
+
+
+@media only screen and (min-width: 40.063em) {
+  .tabs.vertical {
+    width: 20%;
+    float: left;
+    margin-bottom: 1.25rem; }
+
+  .tabs-content.vertical {
+    width: 80%;
+    float: left;
+    margin-left: -1px; } }
+.no-js .tabs-content > .content {
+  display: block;
+  float: none; }
